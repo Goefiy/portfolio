@@ -180,6 +180,10 @@ input, select, textarea {
 		margin: 0 0 2rem 0;
 	}
 
+		.less.space {
+			margin: 0 0 .25rem 0;
+		}
+
 	h1, h2, h3, h4, h5, h6 {
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-weight: 900;
@@ -215,6 +219,10 @@ input, select, textarea {
 	h4 {
 		font-size: 1rem;
 	}
+
+		.title.grade {
+		margin: 0;
+		}
 
 	h5 {
 		font-size: 0.9rem;
@@ -320,6 +328,10 @@ input, select, textarea {
 
 	hr {
 		border-bottom-color: #eeeeee;
+	}
+
+	.grade	{
+		padding-top: 0;
 	}
 
 /* Row */
@@ -2041,6 +2053,7 @@ input, select, textarea {
 		border: solid 2px;
 		margin-bottom: 2rem;
 		padding: 1.5rem;
+		text-align: center;
 	}
 
 		.box > :last-child,
@@ -3794,6 +3807,7 @@ input, select, textarea {
 
 			#main > .post.featured {
 				text-align: center;
+				padding: 4rem 4rem 3rem 4rem;
 			}
 
 			@media screen and (max-width: 1280px) {
